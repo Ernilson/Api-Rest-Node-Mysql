@@ -1,0 +1,25 @@
+// para criar um packtjason
+npm init -y
+2º passo	(o express serve é um framework p/ construção do webservice)
+		(o body-parser é um middleware e tem a função de interpretar o conteúdo do corpo de uma requisição, exp: se houver no corpo um texto, convertido para outros formatos como JSON, XML e outros )
+(cors,(ou cross) serve para deixar a api acessivel a qualquer origem)
+(consign - serve para compartilhar ou gerenciar os dados entre modulos ou arquivos)
+npm install -s express body-parser cors consign
+
+3º passo
+segurança (bcrypt serve para criptografar a senhas)
+(passport é um framework de autenticação e passport-jwt (json web token) é um framework de autenticação e serve para autenticar com outras plataformas com o google ou facebook ...)
+npm install -s bcrypt-nodejs jwt-simple passport passport-jwt
+
+4º passo
+(knex - serve para fazer a integração com o banco de dados)
+(pg - postgres) 
+npm install -s knex mysql
+
+5º passo
+(moment serve para manipular datas)
+npm i -s moment
+
+6º passo 
+(nodemon é um laucher para instarta a aplicação ou recarregal-a)
+npm install -s nodemon --save-dev
